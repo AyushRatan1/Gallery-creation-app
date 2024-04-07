@@ -1,0 +1,20 @@
+.custom-card {
+  background-color: #f4f6f8;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.custom-card .Polaris-TextField__Input {
+  background-color: #000000;
+}
+
+.custom-card .Polaris-Button--primary {
+  background-color: #008060;
+  border-color: #008060;
+}
+
+.custom-card .Polaris-Button--primary:hover {
+  background-color: #00694e;
+  border-color: #00694e;
+}

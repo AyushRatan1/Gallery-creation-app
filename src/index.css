@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.custom-card {
+  background-color: #f4f6f8;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.custom-card .Polaris-TextField__Input {
+  background-color: #000000;
+}
+
+.custom-card .Polaris-Button--primary {
+  background-color: #008060;
+  border-color: #008060;
+}
+
+.custom-card .Polaris-Button--primary:hover {
+  background-color: #00694e;
+  border-color: #00694e;
+}
